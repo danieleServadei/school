@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & JS</title>
+  </head>
+  <body>
+    <h1>HTML & JS</h1>
+    <script>
+      const num = 1.25
+      const demo = "demo"
+
+      alert(demo)
+      alert(num * 5)
+
+      const sum = parseInt(prompt("2+2 = ?", Infinity))
+      sum === 4 ? alert("👏👏👏👏👏👏") : alert("._.")
+
+      const proceed = confirm("Are you sure to proceed?")
+      proceed ? alert("You have proceeded") : alert("Action canceled")
+
+      const name = prompt("What's your name?", "Ulisse")
+      alert(`Hi ${name}`)
+
+      let conversion = 3.50
+      conversion = parseInt(conversion) // 3
+      conversion = conversion.toString() + "24.50" // "324.50"
+      conversion = parseFloat(conversion) // 324.50
+      alert(`${typeof conversion}, ${conversion}`)
+    </script>
+  </body>
+</html>
